@@ -1,0 +1,19 @@
+{
+  "name": "selenium-sample",
+  "version": "1.0.0",
+  "description": "Selenium With Mocha Sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha __tests__ -t 80000 --reporter mochawesome"
+  },
+  "author": "Reysmer Valle",
+  "license": "MIT",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "mochawesome": "^4.1.0"
+  }
+}
